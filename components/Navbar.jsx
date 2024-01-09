@@ -9,7 +9,7 @@ import {
   DropdownMenuSeparator,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu"
-import { Bars3Icon , DevicePhoneMobileIcon} from '@heroicons/react/24/outline'
+import { Bars3Icon , DevicePhoneMobileIcon , ShoppingCartIcon} from '@heroicons/react/24/outline'
 
 export default function Navbar() {
   return (
@@ -26,7 +26,7 @@ export default function Navbar() {
       <a href="">Contact</a>
     </ul>
     </div>
-    <Button className='text-lg rounded-xl'>Shop Now</Button> 
+    <Button className='text-lg rounded-xl gap-x-2'>Shop Now<ShoppingCartIcon className='h-6 w-6'/></Button> 
     </div>
     <div className='lg:hidden p-8 flex justify-between'>
     <div className=" text-3xl font-extrabold">
