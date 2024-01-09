@@ -26,7 +26,7 @@ export default function Navbar() {
       <a href="">Contact</a>
     </ul>
     </div>
-    <Button className='text-lg rounded-xl gap-x-2'>Shop Now<ShoppingCartIcon className='h-6 w-6'/></Button> 
+    <Button className='text-lg rounded-md gap-x-2'>Shop Now<ShoppingCartIcon className='h-6 w-6'/></Button> 
     </div>
     <div className='lg:hidden p-8 flex justify-between'>
     <div className=" text-3xl font-extrabold">
