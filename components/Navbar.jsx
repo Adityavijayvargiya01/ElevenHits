@@ -20,8 +20,8 @@ export default function Navbar() {
     </div>
     <div>
     <ul className='flex text-lg font-medium gap-10 px-10 py-2 rounded-2xl bg-accent-foreground text-accent'>
-      <a href="">Home</a>
-      <a href="">Products</a>
+      <a href="/">Home</a>
+      <a href="/Products">Products</a>
       <a href="">About</a>
       <a href="">Contact</a>
     </ul>
@@ -44,7 +44,7 @@ export default function Navbar() {
           <a href="/">Home</a>
           </DropdownMenuItem>
           <DropdownMenuItem>
-          <a href="/">Products</a>
+          <a href="/Products">Products</a>
           </DropdownMenuItem>
           <DropdownMenuItem>
           <a href="/">About</a>
