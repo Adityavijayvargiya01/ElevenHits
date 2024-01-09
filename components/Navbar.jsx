@@ -13,9 +13,9 @@ import { Bars3Icon , DevicePhoneMobileIcon , ShoppingCartIcon} from '@heroicons/
 
 export default function Navbar() {
   return (
-    <main>
+    <main className=' sticky'>
     <div className='lg:flex p-10 justify-between hidden items-center'>
-    <div className="font-extrabold text-4xl">
+    <div className="font-extrabold text-5xl">
       ElevenHits
     </div>
     <div>
@@ -26,16 +26,15 @@ export default function Navbar() {
       <a href="">Contact</a>
     </ul>
     </div>
-    <Button className='text-lg rounded-md gap-x-2'>Shop Now<ShoppingCartIcon className='h-6 w-6'/></Button> 
     </div>
     <div className='lg:hidden p-8 flex justify-between'>
-    <div className=" text-3xl font-extrabold">
+    <div className=" text-4xl font-extrabold">
       ElevenHits
     </div>
     <div>
     <DropdownMenu>
       <DropdownMenuTrigger asChild>
-        <Button variant="outline"><Bars3Icon className="h-7 w-7" /></Button>
+        <Button variant="outline" className='bg-accent-foreground'><Bars3Icon className="h-7 w-7 text-accent" /></Button>
       </DropdownMenuTrigger>
       <DropdownMenuContent className="w-12 mr-4">
         <DropdownMenuLabel><DevicePhoneMobileIcon className='h-7 w-7'/></DropdownMenuLabel>
