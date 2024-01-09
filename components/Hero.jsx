@@ -6,7 +6,7 @@ import { ShoppingCartIcon} from '@heroicons/react/24/outline'
 export default function Hero() {
   return (
     <main>
-    <div className='flex flex-col-reverse lg:flex-row justify-between lg:my-20 my-5'>
+    <div className='flex flex-col-reverse lg:flex-row justify-between lg:my-10 my-5'>
         <div className='lg:w-1/2 p-10 lg:p-20 flex flex-col items-center mb-10 border-b-1  border-secondary'>
         <h1 className=' font-semibold text-2xl lg:text-3xl text-center text-primary text-wrap m-8'>"Being Beautiful was never been so easy until now with ElevenHits"</h1>
         <p className='text-lg text-center font-medium'>ElevenHits is a beauty brand that offers the best quality makeup and skincare products at an affordable price. 
@@ -17,7 +17,7 @@ export default function Hero() {
           src="/Images/IMG_1.png" 
           alt="Description of image" 
           width={640} 
-          height={280}
+          height={380}
           className='lg:rounded-l-xl border-accent-foreground border-t-2 border-b-2 lg:border-l-2' 
       />
     </div>
