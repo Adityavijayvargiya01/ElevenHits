@@ -30,7 +30,7 @@ export default function page() {
                 <div className="p-1">
                   <Card>
                     <CardTitle className='p-4'>Facewash</CardTitle>
-                    <CardDescription className='p-4'>ElevenHits GlowGlide Face Wash: Elevate your skincare routine with our refreshing face wash. Formulated to cleanse and revitalize, it's your daily burst of freshness for a radiant, clean face. Embrace the glow with Elevengits!</CardDescription>
+                    <CardDescription className='p-4'>ElevenHits GlowGlide Face Wash: Elevate your skincare routine with our refreshing face wash. Formulated to cleanse and revitalize, it&apos;s your daily burst of freshness for a radiant, clean face. Embrace the glow with Elevengits!</CardDescription>
                     <CardContent className="flex aspect-square items-center justify-center h-64 mx-auto p-6">
                       <h1 className="text-5xl font-semibold">{index + 1}</h1>
                     </CardContent>

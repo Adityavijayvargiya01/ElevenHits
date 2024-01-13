@@ -8,7 +8,7 @@ export default function Hero() {
     <main>
     <div className='flex flex-col-reverse lg:flex-row justify-between lg:my-10 my-5'>
         <div className='lg:w-1/2 p-10 lg:p-20 flex flex-col items-center mb-10 border-b-1  border-secondary'>
-        <h1 className=' font-semibold text-2xl lg:text-3xl text-center text-primary text-wrap m-8'>"Being Beautiful was never been so easy until now with ElevenHits"</h1>
+        <h1 className=' font-semibold text-2xl lg:text-3xl text-center text-primary text-wrap m-8'>&quot;Being Beautiful was never been so easy until now with ElevenHits</h1>
         <p className='text-lg text-center font-medium'>ElevenHits is a beauty brand that offers the best quality makeup and skincare products at an affordable price. 
             We are 100% cruelty free and we have a large variety of products for you to choose from. </p>
         <a href="/Products"><Button className='text-lg rounded-md  gap-x-4 m-8'>Shop Now<ShoppingCartIcon className='h-6 w-6'/></Button></a>
