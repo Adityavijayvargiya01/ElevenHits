@@ -22,7 +22,7 @@ export default function page() {
           opts={{
             align: "start",
           }}
-          className=" w-full "
+          className="w-full"
         >
           <CarouselContent>
             {Array.from({ length: 5 }).map((_, index) => (
