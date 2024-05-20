@@ -13,13 +13,13 @@ import { Bars3Icon , DevicePhoneMobileIcon , ShoppingCartIcon} from '@heroicons/
 
 export default function Navbar() {
   return (
-    <main className=' sticky'>
+    <main className='sticky'>
     <div className='lg:flex p-10 justify-between hidden items-center'>
     <div className="font-extrabold text-5xl">
       ElevenHits
     </div>
     <div>
-    <ul className='flex text-lg font-medium gap-10 px-10 py-2 rounded-2xl bg-accent-foreground text-accent'>
+    <ul className='flex text-lg font-medium gap-12 px-7 py-2 rounded-xl bg-primary text-accent'>
       <a href="/">Home</a>
       <a href="/Products">Products</a>
       <a href="https://github.com/Adityavijayvargiya01/ElevenHits">About</a>
